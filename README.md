@@ -20,7 +20,7 @@ We programmed an [API](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-
 The Models folder includes all four time series predictive models that we used to predict future USDC token price using the past 3 years' data. The files for the [depth-first-search algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) could also be found here.
 
 ## API Reference
-Our project involves the use of Uniswap API. Details could be found here: https://uniswap.org/docs/v2/API/overview/.
+The data collection stage of our project involves the use of Uniswap API. Details could be found [here](https://uniswap.org/docs/v2/API/overview/).
 
 ## Credits
 We would like to thank [Dr. Victor Fang](https://www.linkedin.com/in/drvictorfang/) from AnChain.AI for his guidance and support.
