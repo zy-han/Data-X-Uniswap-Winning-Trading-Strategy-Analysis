@@ -23,7 +23,8 @@ The Models folder includes all four time series predictive models (ARIMA, SARIMA
 Here is a step-by-step introduction on how to reproduce our work:
 
 1. Download all files in the three folders to your local environment.
-2. Open [Raw Data Preparation.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Raw%20Data%20Preparation.ipynb) and use the GraphQL query in the first box to fetch the USDC Token's daily transaction data of the recent year, as shown in the second box. 
+2. Open [Raw Data Preparation.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Raw%20Data%20Preparation.ipynb) and use the GraphQL query in the first box to fetch the USDC Token's daily transaction data of the recent year, as shown in the second box. Load the Yahoo Finance data [USDC 3years.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%203year.csv) and contatenate two datasets into [USDC Price.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%20Price.csv).
+3. 
 
 ## API Reference
 The data collection stage of our project involves the use of Uniswap API. Details could be found [here](https://uniswap.org/docs/v2/API/overview/).
