@@ -24,7 +24,8 @@ Here is a step-by-step introduction on how to reproduce our work:
 
 1. Download all files in the three folders to your local environment.
 2. Open [Raw Data Preparation.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Raw%20Data%20Preparation.ipynb) and use the GraphQL query in the first box to fetch the USDC Token's daily transaction data of the recent year, as shown in the second box. Load the Yahoo Finance data [USDC 3years.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%203year.csv) and contatenate two datasets into [USDC Price.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%20Price.csv).
-3. 
+3. Run [Exploratory Data Analysis.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Exploratory%20Data%20Analysis.ipynb) to perform EDA and identify real-life arbitraging transactions on your dates of prederence that are classified as outlier dates. After that, feel free to go to [Etherscan](https://etherscan.io) to see the transaction details.
+4. 
 
 ## API Reference
 The data collection stage of our project involves the use of Uniswap API. Details could be found [here](https://uniswap.org/docs/v2/API/overview/).
