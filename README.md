@@ -13,5 +13,16 @@ Cryptocurrency is one of the hottest fields in investment, promising immense opp
 ## API Reference
 Our project involves the use of Uniswap API. Details could be found here: https://uniswap.org/docs/v2/API/overview/.
 
+## Credits
+
+
+## Contacts
+Kexin Fang    |  kexin_fang@berkeley.edu
+Lei Liang     |  lei_liang@berkeley.edu
+Shuyang Yu    |  shuyang_yu@berkeley.edu
+Yuying Chen   |  yuyingc18@berkeleu.edu
+Zhiyang Han   |  z-han@berkeley.edu
+Zihao Zhou    |  zhouzh20@berkeley.edu
+
 ## Liscense
-Apache © Zhiyang Han
+© Apache 2.0
