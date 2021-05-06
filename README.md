@@ -18,10 +18,15 @@ Our project involves the use of Uniswap API. Details could be found here: https:
 
 ## Contacts
 Kexin Fang    |  kexin_fang@berkeley.edu
+
 Lei Liang     |  lei_liang@berkeley.edu
+
 Shuyang Yu    |  shuyang_yu@berkeley.edu
+
 Yuying Chen   |  yuyingc18@berkeleu.edu
+
 Zhiyang Han   |  z-han@berkeley.edu
+
 Zihao Zhou    |  zhouzh20@berkeley.edu
 
 ## Liscense
