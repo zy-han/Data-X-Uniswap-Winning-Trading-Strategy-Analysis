@@ -11,7 +11,7 @@ Cryptocurrency is one of the hottest fields in investment, promising immense opp
 The project consists of three parts - Datasets, API, and Models. Here is a step-by-step introduction on how to reproduce our work.
 
 ### Datasets 
-Our data came from two sources. We fetched USDC Token's daily transaction data using the GraphQL language on https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2 - automatic!
+Our data came from two sources. We fetched USDC Token's daily transaction data using the GraphQL language on [TheGraph Uniswap-V2](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2).
 
 ## API Reference
 Our project involves the use of Uniswap API. Details could be found here: https://uniswap.org/docs/v2/API/overview/.
