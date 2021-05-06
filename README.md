@@ -17,7 +17,7 @@ Our data came from two sources. We fetched USDC Token's daily transaction data o
 We programmed an [API](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/API/Request_Uniswap_try.py) that could automatically request and download within-a-day transaction data between a pair of tokens on Uniswap, given the token ID and Unix timestamp. It would output transaction IDs, volumes, and equivalent USD price. It was referenced when we located the specific dates with abnormal prices and performed intra-day outlier detections.
 
 ### Models
-The Models folder includes all four time series predictive models that we used to predict future USDC token price using the past 3 years' data. The files for the [depth-first-search algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) could also be found here.
+The Models folder includes all four time series predictive models (ARIMA, SARIMA, Prophet, and LSTM) that we used to predict future USDC token price using the past 3 years' data. The files for the [depth-first-search algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) could also be found here.
 
 ## Reproduction Guide
 Here is a step-by-step introduction on how to reproduce our work:
