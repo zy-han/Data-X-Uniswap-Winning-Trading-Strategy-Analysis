@@ -7,6 +7,9 @@ Team 1 - INDENG 290 - 21 Spring at Cal
 ## Motivation
 Cryptocurrency is one of the hottest fields in investment, promising immense opportunity for those willing to take risks. While the price of Bitcoin skyrocketed from $5,000 to $60,000 and the daily trading volume reached a billion-dollar level in the past year, people’s interest in trading and swapping crypto assets has grown exponentially. However, the process is not as easy as it sounds - investors are likely to lose money due to a lack of knowledge of the market and the fast-changing exchange rates. Under the guidance of AnChain.ai, six students from the University of California, Berkeley gathered to create a platform that could recommend arbitraging strategies based on users’ preferences and boost people’s portfolios, making it less risky for cryptocurrency investors.
 
+## Solution
+Pulling the latest transaction data with token prices and exchange rates between pairs from Uniswap, the team did behavioral analyses to study the pattern behind extreme value fluctuations to find out the most appropriate scenarios for utilizing the spreads of prices between different currencies. Focusing on the most popular currencies, the next step is to perform token price predictions using historical data through time series models and input the real-time ones into their detection model built on the depth-first search algorithm. The whole process would calculate and produce the optimal investment volume and output potential routes with respective profits. We are still working on building an interactive platform where results will be displayed and listed in users’ preferences with clearity, helping them make better decisions and enjoy their journey of trading. See our demo UI [here]().
+
 ## File Introduction
 The project consists of three parts - Datasets, API, and Models.
 
