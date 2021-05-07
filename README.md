@@ -1,6 +1,6 @@
-# Data-X Applied Data Science with Venture Applications
+# Data-X: Applied Data Science with Venture Applications
 
-# Uniswap Arbitraging Platform: Winning Trading Strategies for Cryptocurrencies
+## Uniswap Arbitraging Platform: Winning Trading Strategies for Cryptocurrencies
 
 Team 1 - INDENG 290 - 21 Spring at Cal
 
