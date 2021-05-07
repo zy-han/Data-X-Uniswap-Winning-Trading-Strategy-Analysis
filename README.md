@@ -38,12 +38,12 @@ The data collection stage of our project involves the usage of Uniswap API. Deta
 We would like to thank [Dr. Victor Fang](https://www.linkedin.com/in/drvictorfang/) from AnChain.AI for his guidance and support.
 
 ## Contacts
-* Kexin Fang    |  kexin_fang@berkeley.edu
-* Lei Liang     |  lei_liang@berkeley.edu
-* Shuyang Yu    |  shuyang_yu@berkeley.edu
-* Yuying Chen   |  yuyingc18@berkeleu.edu
 * Zhiyang Han   |  z-han@berkeley.edu
 * Zihao Zhou    |  zhouzh20@berkeley.edu
+* Lei Liang     |  lei_liang@berkeley.edu
+* Kexin Fang    |  kexin_fang@berkeley.edu
+* Shuyang Yu    |  shuyang_yu@berkeley.edu
+* Yuying Chen   |  yuyingc18@berkeleu.edu
 
 
 ## Liscense
