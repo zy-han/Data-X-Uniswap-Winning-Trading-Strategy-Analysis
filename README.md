@@ -17,18 +17,19 @@ Our data came from two sources. We fetched USDC Token's daily transaction data o
 We programmed an [API](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/API/Request_Uniswap_try.py) that could automatically request and download within-a-day transaction data between a pair of tokens on Uniswap, given the token ID and Unix timestamp. It would output transaction IDs, volumes, and equivalent USD price. It was referenced when we located the specific dates with abnormal prices and performed intra-day outlier detections.
 
 ### Models
-The Models folder includes all four time series predictive models (ARIMA, SARIMA, Prophet, and LSTM) that we used to predict future USDC token price using the past 3 years' data. The files for the [depth-first-search algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) could also be found here.
+The Models folder includes all four time series predictive models (ARIMA, SARIMA, Prophet, and LSTM) that we used to predict future USDC token price using the past 3 years' data. The files for the [Depth-First-Search (DFS) algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) could also be found here.
 
 ## Reproduction Guide
 Here is a step-by-step introduction on how to reproduce our work:
 
 1. Download all files in the three folders to your local environment.
 2. Open [Raw Data Preparation.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Raw%20Data%20Preparation.ipynb) and use the GraphQL query in the first box to fetch the USDC Token's daily transaction data of the recent year, as shown in the second box. Load the Yahoo Finance data [USDC 3years.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%203year.csv) and contatenate two datasets into [USDC Price.csv](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/USDC%20Price.csv).
-3. Run [Exploratory Data Analysis.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Exploratory%20Data%20Analysis.ipynb) to perform EDA and identify real-life arbitraging transactions on your dates of prederence that are classified as outlier dates. After that, feel free to go to [Etherscan](https://etherscan.io) to see the transaction details using transaction IDs.
-4. 
+3. Run [Exploratory Data Analysis.ipynb](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Datasets/Exploratory%20Data%20Analysis.ipynb) to perform EDA and identify real-life arbitraging transactions on your dates of prederence that are classified as outlier dates. After that, feel free to go to [Etherscan](https://etherscan.io) to see transaction details using the transaction IDs given in the end. For intra-day analysis, please use the [API](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/API/Request_Uniswap_try.py) we prepared to get transactions within a specific day.
+4. With the [DFS algorithm](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/uniswap_arbitrage.py) and the supportive [document](https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis/blob/main/Models/pairs.json) that records exchange rates between pairs, one can imput a token name to get arbitraging recommendations with arbitrage routes and optimal volumes. There is also a choice to limit the number of tokens involved and therefore limit the length of routes suggested.
+5. Run the USDC ARIMA/SARIMA/Prophet/LSTM files in the Models folder to compare the performances of the models' ability to predict future token price through error measures and graphs.
 
 ## API Reference
-The data collection stage of our project involves the use of Uniswap API. Details could be found [here](https://uniswap.org/docs/v2/API/overview/).
+The data collection stage of our project involves the usage of Uniswap API. Details could be found [here](https://uniswap.org/docs/v2/API/overview/).
 
 ## Credits
 We would like to thank [Dr. Victor Fang](https://www.linkedin.com/in/drvictorfang/) from AnChain.AI for his guidance and support.
